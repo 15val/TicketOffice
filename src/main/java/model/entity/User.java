@@ -78,46 +78,7 @@ public class User {
     public BigInteger getBalance() {return balance;}
 
 }
-/*
-class Users{
-    String name;
-    int age;
-    public Users(String name, int age){
-         this.name = name;
-         this.age = age;
-    };
 
-
-
-    public  static void main(String[] args){
-        Users user1 =     new Users("Anna", 25);
-
-        Users user2 =    new Users("Di", 15);
-
-        Users user3 =   new Users("Nick", 12);
-
-        Users user4 =   new Users("Rick", 20);
-
-        Users user5 =    new Users("Lii", 18);
-        List<Users> userList = new ArrayList<>();
-        userList.add(user1);
-        userList.add(user2);
-        userList.add(user3);
-        userList.add(user4);
-        userList.add(user5);
-
-        userList.stream().filter(users -> users.getAge() >= 18).forEach(users -> System.out.println(users.getName()));
-    }
-
-
-    public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-}*/
 
 
 
