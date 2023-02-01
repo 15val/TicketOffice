@@ -2,9 +2,7 @@ package controller.command;
 
 import model.entity.User;
 import javax.servlet.http.HttpServletRequest;
-import java.util.Locale;
-import java.util.Optional;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class LoginCommand implements Command {
 
@@ -53,6 +51,8 @@ public class LoginCommand implements Command {
         request.getSession().setAttribute("loginError", bundle.getString("wrong.data"));
         return "/login.jsp";
     }
+
+
 }
 
 
